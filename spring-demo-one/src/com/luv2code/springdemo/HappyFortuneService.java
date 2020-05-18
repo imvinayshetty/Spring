@@ -1,7 +1,15 @@
 package com.luv2code.springdemo;
 
-public interface HappyFortuneService {
+import java.util.Random;
 
-	public String getFortune();
-	
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		String fortune [] = {"You are going to be rich", "You are very wise today", "You will be happy"};
+		Random generator = new Random();
+		int randomIndex = generator.nextInt(fortune.length);
+		return fortune[randomIndex];		
+	}
+
 }
