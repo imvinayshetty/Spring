@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 6 resources" deleteContents="false" description="Delete 6 resources" element1="/ugo-business" element2="/ugo-ear" element3="/ugo-ejb" element4="/ugo-master" element5="/ugo-util" element6="/ugo-web" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="6" stamp="1571911893442"/>
+</session>
